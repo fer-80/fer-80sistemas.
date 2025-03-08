@@ -28,8 +28,8 @@ header {
     flex-wrap: wrap; /* Para que el menú se ajuste en móviles */
 }
 
-header .logo img {
-    height: 50px;
+.logo img {
+    height: 10rem;
 }
 
 header nav ul {
@@ -60,7 +60,7 @@ header nav ul li a {
 }
 
 .hero h1 {
-    font-size: 2.5rem; /* Tamaño ajustado para móviles */
+    font-size: 1.5rem; /* Tamaño ajustado para móviles */
     margin-bottom: 20px;
 }
 
@@ -84,7 +84,7 @@ header nav ul li a {
 
 /* Services Section */
 .services {
-    padding: 40px 20px;
+    padding: 30px 10px;
     background-color: #fff;
     text-align: center;
 }
@@ -342,12 +342,16 @@ footer p {
         font-size: 18px; /* Tamaño de fuente más grande para tablets */
     }
 
+    .logo img {
+        height: 10rem;
+    }
+
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2.0rem;
     }
 
     .services h2, .gallery h2, .location h2, .contact h2 {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
     }
 
     .location iframe {
@@ -370,8 +374,12 @@ footer p {
         padding: 120px 20px;
     }
 
+    .logo img {
+        height: 10rem;
+    }
+
     .services, .gallery, .location, .contact {
-        padding: 60px 20px;
+        padding: 40px 10px;
     }
 
     .location iframe {
@@ -382,7 +390,11 @@ footer p {
 /* Pantallas grandes (TV y monitores de escritorio) */
 @media (min-width: 1440px) {
     .hero h1 {
-        font-size: 4rem;
+        font-size: 2.0rem;
+    }
+
+    .logo img {
+        height: 10rem;
     }
 
     .services h2, .gallery h2, .location h2, .contact h2 {
