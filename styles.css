@@ -222,7 +222,7 @@ header nav ul li a {
 .service-card, .service-card1, .service-card2, 
 .service-card3, .service-card4, .service-card5, 
 .service-card6, .service-card7, .service-card8, h3 {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
